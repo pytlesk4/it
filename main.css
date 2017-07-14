@@ -9,13 +9,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  background-size: contain;
 }
 
 .main-img {
@@ -23,15 +17,4 @@ body {
   width: 100%;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-}
-
-#app {
-  top: 10%;
-  width: 100%;
-  max-width: 400px;
-  margin: 5% auto 3% auto;
-  background-color: white;
-  box-shadow: 0 0 3px rgba(0,0,0,0.75);
-  text-align: center;
-  border-radius: 2px;
 }
